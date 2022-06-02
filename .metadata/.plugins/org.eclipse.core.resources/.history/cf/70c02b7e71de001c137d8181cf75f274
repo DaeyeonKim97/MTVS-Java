@@ -1,6 +1,0 @@
-package part2.ex3.func.topdown;
-
-public class ExamConsole {
-	private Exam exam;
-	
-}

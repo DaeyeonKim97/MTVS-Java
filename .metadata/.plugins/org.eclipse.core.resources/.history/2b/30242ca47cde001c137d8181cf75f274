@@ -1,6 +1,0 @@
-package part3.ex3.has;
-
-public class ExamConsole {
-	private Exam exam;
-	
-}

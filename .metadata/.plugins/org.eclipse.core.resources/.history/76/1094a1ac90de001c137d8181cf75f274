@@ -1,6 +1,0 @@
-
-public class Point2 extends Point {
-	public int total() {
-		return 6;
-	}
-}

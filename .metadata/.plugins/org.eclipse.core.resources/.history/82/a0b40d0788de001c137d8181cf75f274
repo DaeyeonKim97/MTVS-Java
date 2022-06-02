@@ -1,5 +1,0 @@
-package part3.ex4.is;
-
-public class NewlecExam extends Exam {
-
-}
