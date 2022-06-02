@@ -1,0 +1,13 @@
+
+public class Point {
+	int kor;
+	public Point() {
+		kor = 0;
+	}
+	
+	public Point(int kor) {
+		this(0);
+		this.kor = kor;
+	}
+	
+}

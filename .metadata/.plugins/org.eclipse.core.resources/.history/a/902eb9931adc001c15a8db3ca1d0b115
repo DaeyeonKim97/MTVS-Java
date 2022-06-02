@@ -1,0 +1,17 @@
+package part2.ex3.func.topdown;
+
+public class Exam {
+	int kor, eng, math;
+	public void inputKor(int score) {
+		kor = score;
+	}
+	public void inputEng(int score) {
+		eng = score;
+	}
+	public void inputMath(int score) {
+		math = score;
+	}
+	public void printExam() {
+		
+	}
+}

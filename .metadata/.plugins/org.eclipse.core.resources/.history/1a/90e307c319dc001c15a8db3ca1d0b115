@@ -1,0 +1,91 @@
+package part2.ex3.func.topdown;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// 사용자로부터 성적(국어, 영어, 수학)을 입력 받거나 그것을 계산해서 출력해주고
+		// 때로는 영구저장을 할 수 있도록 파일로 저장 또는 읽어오는 프로그램
+		
+		Exam exam = null;
+		
+		while(true) {
+			int menu = inputMenu();
+			
+			/*
+			 --------------
+			     메인 메뉴
+			 --------------
+			 1. 성적 입력
+			 2. 성적 출력
+			 3. 성적 읽어오기
+			 4. 성적 저장
+			 5. 종료
+			 */
+			
+			switch(menu) {
+			case 1:
+				exam = inputExam();
+				break;
+			case 2:
+				printExam(exam);
+				break;
+			case 3:
+				exam = readExam();
+				break;
+			case 4:
+				save(exam);
+				break;
+			case 5:
+				exitProgram();
+				break programLoop;
+			default:
+				break;
+			}
+			
+		}
+		
+
+	}
+
+	private static void save(Exam exam) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void exitProgram() {
+		System.exit(0);		
+	}
+
+	private static Exam readExam() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private static void printExam(Exam exam) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static Exam inputExam() {
+		
+		return null;
+	}
+
+	private static int inputMenu() {
+		System.out.println(
+				"            --------------\n"
+				+ "			     메인 메뉴\n"
+				+ "			 --------------\n"
+				+ "			 1. 성적 입력\n"
+				+ "			 2. 성적 출력\n"
+				+ "			 3. 성적 읽어오기\n"
+				+ "			 4. 성적 저장\n"
+				+ "			 5. 종료");
+		Scanner scan = new Scanner(System.in);
+		int inputValue = scan.nextInt();
+		return inputValue;
+	}
+
+}

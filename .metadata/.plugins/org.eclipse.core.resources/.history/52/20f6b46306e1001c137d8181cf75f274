@@ -1,0 +1,11 @@
+
+
+public class test {
+
+	public static void main(String[] args) {
+		Point p = new Point2();
+		System.out.println(p.avg());
+	}
+
+}
+

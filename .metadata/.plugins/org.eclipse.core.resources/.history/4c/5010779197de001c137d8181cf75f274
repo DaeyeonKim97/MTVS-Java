@@ -1,0 +1,8 @@
+package part3.ex5.abst;
+
+public class NewlectExamConsole extends ExamConsole {
+	public NewlectExamConsole() {
+		
+	}
+	
+}

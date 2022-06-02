@@ -1,0 +1,29 @@
+package part2.ex3.func.topdown;
+
+public class Exam {
+	int kor, eng, math;
+	
+	//get Score
+	public void getKor(int score) {
+		kor = score;
+	}
+	public void getEng(int score) {
+		eng = score;
+	}
+	public void getMath(int score) {
+		math = score;
+	}
+	
+	//print Score
+	public void printExam() {
+		System.out.println(
+				  "          --------------\n"
+				+ "			     성적 출\n"
+				+ "			 --------------\n"
+				+ "			   1. 성적 입력\n"
+				+ "			   2. 성적 출력\n"
+				+ "			   3. 성적 읽어오기\n"
+				+ "			   4. 성적 저장\n"
+				+ "			   5. 종료\n");
+	}
+}

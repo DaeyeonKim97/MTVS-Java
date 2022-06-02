@@ -1,0 +1,4 @@
+
+public class Point2 extends Point {
+	private int eng;
+}

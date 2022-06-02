@@ -1,0 +1,13 @@
+
+
+public class test {
+
+	public static void main(String[] args) {
+		Point korList = new Point();
+		korList.x[0] = 30;
+		
+		System.out.println(korList.x[1]);
+	}
+
+}
+
