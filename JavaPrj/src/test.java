@@ -9,5 +9,6 @@ abstract class  test {
 //		System.out.println(p.avg());
 //	}
 
+
 }
 
